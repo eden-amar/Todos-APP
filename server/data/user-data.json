@@ -1,0 +1,43 @@
+[
+    {
+        "userName": "Eden Amar",
+        "password": "1234",
+        "email": "eden2504@gmail.com"
+    },
+    {
+        "id": "MC40ODQ5NTMwNjAyNzI3NjAx",
+        "email": "eden2332@gmail.com",
+        "userName": "weerer",
+        "password": "123334"
+    },
+    {
+        "id": "MC4yODkwNzI1ODM4MTEyMTE4",
+        "email": "dorosh123@gmail.com",
+        "userName": "Dori Yosef",
+        "password": "555"
+    },
+    {
+        "id": "MC42NDAwMzEyMjI2NDc5MzU3",
+        "email": "shovi234@gmail.com",
+        "userName": "Shoval Zipori",
+        "password": "43787"
+    },
+    {
+        "id": "MTQ1Ny4zOTE4Nzk2NzYyOTM1",
+        "email": "llilili@gmail.com",
+        "userName": "liron",
+        "password": "14587"
+    },
+    {
+        "id": "ODAyOS4wNDc2ODMwNzQzNjY=",
+        "email": "michi@gmail.com",
+        "userName": "michal",
+        "password": "656"
+    },
+    {
+        "id": "Mi4wOTAwMTA3NjcxMzg4NDE3",
+        "email": "shir355@gmail.com",
+        "userName": "shir",
+        "password": "579799"
+    }
+]

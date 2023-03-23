@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        body {
+            padding: 1em;
+            margin: 1em;
+            margin-left: 170px;
+            margin-right: 170px;
+            background-color: #263EAC;
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table {
+            border: 0px solid #fff;
+            border-collapse: collapse;
+            margin-bottom: 1em;
+        }
+
+        th,
+        td {
+            padding-right: 1em;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            text-align: center;
+        }
+
+        th {
+            font-size: 1.2em;
+            font-family: 'Marcellus', serif;
+        }
+
+        td {
+            font-family: 'News Cycle', sans-serif;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1em;
+            font-family: 'Marcellus', serif;
+        }
+
+        .table-body {
+            border-radius: 2em;
+            background-color: rgba(255, 255, 255, 0.945);
+            color: black;
+            padding: 1em;
+            width: 60em;
+        }
+
+        .task-input {
+            margin-bottom: 1em;
+            width: 200px;
+            height: 25px;
+            margin-right: 1em;
+        }
+
+        .user-input {
+            margin-bottom: 1em;
+            width: 150px;
+            height: 25px;
+            margin-right: 1em;
+        }
+
+        svg path {
+            fill: #263EAC;
+        }
+
+        .addButton {
+            padding: 0;
+            height: 30px;
+        }
+
+        .add-todo {
+            display: flex;
+            align-items: self-start;
+            margin-left: 1.5em;
+        }
+
+        .flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>TODOS LIST</h1>
+    <div class="add-todo">
+
+    </div>
+    <div class="table-body">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TASK</th>
+                    <th>USER</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="flex">
+                            <input class="task-input" type="text" name="" id="" placeholder="add todo">
+
+                        </div>
+                    </td>
+                    <td>
+                        <div class="flex">
+                            <input class="user-input" type="text" name="" id="" placeholder="add user">
+                    </td>
+                    <td>
+                        <button class="addButton">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="white" />
+                            </svg>
+                        </button>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <script src="./index.js"></script>
+</body>
+
+</html>
