@@ -24,19 +24,19 @@ function login() {
 
 
     const response = fetch(`http://localhost:3000/api/login`, {
-        method:'POST',
-        headers: {'content-type': 'application/json'},
-        body: JSON.stringify({userName: userName.value, password:password.value})
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ userName: userName.value, password: password.value })
     })
-    //    response.then(window.open('./index.html'))
 
-
-      return response;
-    
+    response.then((res) => {
+        if(res.status === 200) {
+            open('../todos/index.html')
+        }
+        console.log(res.status);
+    })
 }
 
-
-login();
 
 // clock
 

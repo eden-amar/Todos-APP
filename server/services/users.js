@@ -39,11 +39,11 @@ async function login(loginUser){
                                                user.password === loginUser.password);
     console.log('user:', matchUser);
 
-    id(matchUser){
-        alert('its you');
-        window.open('../todos/index.html')
+    // if(matchUser){
+    //     alert('its you');
+    //     window.open('../todos/index.html')
 
-    }
+    // }
     return matchUser;
 }
 
